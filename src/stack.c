@@ -45,5 +45,6 @@ bool full(stack* s) {
     
     //checking wether or not a stack is full is seemingly pointless due to the only limitation being
     //how much memory is allocated. 
+    // If a stack is full it would be an overflow condition and result in an error. 
   return false;
 }
